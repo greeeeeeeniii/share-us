@@ -33,7 +33,6 @@ export default function TabLayout() {
           tabBarIcon: ({ color }: { color: string }) => <IconSymbol size={28} name="tshirt.fill" color={color} />,
         }}
       />
-      // hi this is a test
       <Tabs.Screen
         name="index"
         options={{
